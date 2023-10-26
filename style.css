@@ -1,0 +1,141 @@
+header{
+    color:white;
+    background-color: #A0522D;
+    padding: 100px;
+    padding-bottom: 5%;
+    background-image: url("pexels-toni-cuenca-585750.jpg");
+    text-align: center;
+}
+body{
+    margin: 0px;
+    background-color: beige;
+}
+footer{
+    background-color:aliceblue;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.title{
+    margin-top: 0px;
+    font-size: 54px;
+    font-family: cursive;
+}
+.dis{
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.mainLogo{
+    margin-top: 0px;
+    height: 260px;
+    width: 260px;
+}
+.ff{
+    font-size: 40px;
+}
+.menu nav ul{
+    
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li{
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.menu li:hover{
+    color: darkgray;
+}
+
+.facts{
+    border: 0px;
+    background-color: #A0522D;
+    font-size: 20px;
+    color: white;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+    
+.facts nav ul{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0px;
+}
+.facts ul li{
+    list-style: none;
+    margin: 10px;
+    padding-left: 10px;
+}
+.facts li{
+    margin: 10px;
+    text-align: left;
+    color: white;
+}
+.facts a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.facts a:hover {
+    color: darkgrey
+}
+.facts .bean{
+    text-align: center;
+}
+.facts .beanpic{
+    height: 250px;
+    width: 298px;
+}
+.pics{
+    padding: 40px;
+    background-color: lightsalmon;
+}
+.robusta{
+    vertical-align: top;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.rtext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
+.arabica{
+    vertical-align: top;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.apic{
+    width: 200px;
+    height: 150px;
+}
+.atext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
+.liberica{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.lpic{
+    width: 200px;
+    height: 150px;
+}
+.ltext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
