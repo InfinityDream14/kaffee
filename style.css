@@ -1,9 +1,9 @@
 header{
     color:white;
     background-color: #A0522D;
-    padding: 100px;
+    padding: 30px;
     padding-bottom: 5%;
-    background-image: url("pexels-toni-cuenca-585750.jpg");
+    background-image: url("pics/pexels-toni-cuenca-585750.jpg");
     text-align: center;
 }
 body{
@@ -92,9 +92,13 @@ footer{
     height: 250px;
     width: 298px;
 }
-.pics{
+.bpics .pics{
     padding: 40px;
     background-color: lightsalmon;
+}
+.bpics h1{
+    font-size: 40px;
+    margin-left: 40px;
 }
 .robusta{
     vertical-align: top;
@@ -138,4 +142,24 @@ footer{
     text-align:center;
     font-size:30px;
     display: block;
+}
+.arabicaS {
+    background-color: #A0522D;
+    padding: 100px;
+}
+.arabicaT{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.arabicaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.arabicaS img{
+    width: 300px;
+    position: absolute;
+    top: 1740px;
+    left: 900px;
 }
