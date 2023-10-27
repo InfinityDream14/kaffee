@@ -9,6 +9,7 @@ header{
 body{
     margin: 0px;
     background-color: beige;
+    background-image: url(pics/pexels-toni-cuenca-585750.jpg);
 }
 footer{
     background-color:aliceblue;
@@ -48,9 +49,12 @@ footer{
     margin: 10px;
     text-align: center;
     font-size: 24px;
+    font-weight: bold;
 }
 .menu li:hover{
+    font-size: 25px;
     color: darkgray;
+    font-weight: bold;
 }
 
 .facts{
@@ -92,13 +96,16 @@ footer{
     height: 250px;
     width: 298px;
 }
+.bpics{
+    background-color: #913A29;
+}
 .bpics .pics{
     padding: 40px;
-    background-color: lightsalmon;
 }
 .bpics h1{
     font-size: 40px;
     margin-left: 40px;
+    color: white;
 }
 .robusta{
     vertical-align: top;
@@ -144,7 +151,7 @@ footer{
     display: block;
 }
 .arabicaS {
-    background-color: #A0522D;
+    background-color: #9E3A26;
     padding: 100px;
 }
 .arabicaT{
@@ -161,5 +168,46 @@ footer{
     width: 300px;
     position: absolute;
     top: 1740px;
+    left: 900px;
+}
+
+.robustaS{
+    background-color: #9E3520;
+    padding: 100px;
+}
+.robustaS div{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.robustaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.robustaS img{
+    width: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 900px;
+}
+.libericaS{
+    background-color: #9B2D17;
+    padding: 100px;
+}
+.libericaS div{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.libericaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.libericaS img{
+    width: 300px;
+    position: absolute;
+    top: 2720px;
     left: 900px;
 }
