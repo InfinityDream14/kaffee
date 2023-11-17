@@ -1,0 +1,243 @@
+header{
+    color:white;
+    background-color: #A0522D;
+    padding: 30px;
+    padding-bottom: 5%;
+    background-image: url("pics/pexels-toni-cuenca-585750.jpg");
+    text-align: center;
+}
+body{
+    margin: 0px;
+    background-color: beige;
+    background-image: url(pics/pexels-toni-cuenca-585750.jpg);
+}
+footer{
+    background-color:aliceblue;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.title{
+    margin-top: 0px;
+    font-size: 54px;
+    font-family: cursive;
+}
+.dis{
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.mainLogo{
+    margin-top: 0px;
+    height: 260px;
+    width: 260px;
+}
+.ff{
+    font-size: 40px;
+}
+.menu nav ul{
+    
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu li{
+    
+}
+.menu li a:hover{
+    font-size: 80px;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.facts{
+    border: 0px;
+    background-color: #A0522D;
+    font-size: 20px;
+    color: white;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+    
+.facts nav ul{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0px;
+}
+.facts ul li{
+    list-style: none;
+    margin: 10px;
+    padding-left: 10px;
+}
+.facts li{
+    margin: 10px;
+    text-align: left;
+    color: white;
+}
+.facts a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.facts a:hover {
+    color: darkgrey
+}
+.facts .bean{
+    text-align: center;
+}
+.facts .beanpic{
+    height: 250px;
+    width: 298px;
+}
+.bpics{
+    background-color: #913A29;
+}
+.bpics .pics{
+    padding: 40px;
+}
+.bpics h1{
+    font-size: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.robusta{
+    vertical-align: top;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.rtext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
+.arabica{
+    vertical-align: top;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.apic{
+    width: 200px;
+    height: 150px;
+}
+.atext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
+.liberica{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+.lpic{
+    width: 200px;
+    height: 150px;
+}
+.ltext{
+    text-align:center;
+    font-size:30px;
+    display: block;
+}
+.arabicaS {
+    background-color: #9E3A26;
+    padding: 100px;
+}
+.arabicaT{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.arabicaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.arabicaS img{
+    width: 300px;
+    position: absolute;
+    top: 1740px;
+    left: 900px;
+}
+
+.robustaS{
+    background-color: #9E3520;
+    padding: 100px;
+}
+.robustaS div{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.robustaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.robustaS img{
+    width: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 900px;
+}
+.libericaS{
+    background-color: #9B2D17;
+    padding: 100px;
+}
+.libericaS div{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.libericaS p{
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.libericaS img{
+    width: 300px;
+    position: absolute;
+    top: 2720px;
+    left: 900px;
+}
+.coffeeT {
+    font-size: 60px;
+    margin-bottom: 0%;
+    color: white;
+}
+.espresso{
+    background-color: #9B2D17;
+    padding: 100px;
+}
+.espresso div {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.espresso p {
+    color: white;
+    font-size: 26px;
+    margin-right: 400px;
+}
+.espresso img{
+    width: 300px;
+    position: absolute;
+    top: 900px;
+    left: 900px;
+}
