@@ -93,6 +93,75 @@
         <img src="pics/liberica1.jpg" alt="arabica1">
     </section>
    <br><br><br>
+
+   <button onclick="showResume()">Show Resume</button>
+
+   <div id="resume-container">
+     <h2>Owner's Resume</h2>
+     <embed id="pdf-embed" src="Gantang_Christian.pdf" type="application/pdf" />
+   </div>
+   
+   <canvas id="particle-canvas"></canvas>
+
+   <script>
+    function showResume() {
+      const resumeContainer = document.getElementById('resume-container');
+      resumeContainer.style.display = 'block';
+  
+      // Particle animation
+      const canvas = document.getElementById('particle-canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+  
+      const particles = [];
+  
+      for (let i = 0; i < 50; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: Math.random() * 4 + 1,
+          color: 'rgba(139, 69, 19, 0.6)',
+          speedX: Math.random() * 3 - 1.5,
+          speedY: Math.random() * 3 - 1.5,
+        });
+      }
+  
+      function drawParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+        for (let i = 0; i < particles.length; i++) {
+          ctx.fillStyle = particles[i].color;
+          ctx.beginPath();
+          ctx.arc(
+            particles[i].x,
+            particles[i].y,
+            particles[i].radius,
+            0,
+            Math.PI * 2,
+            false
+          );
+          ctx.fill();
+  
+          particles[i].x += particles[i].speedX;
+          particles[i].y += particles[i].speedY;
+  
+          if (particles[i].radius > 0.2) {
+            particles[i].radius -= 0.1;
+          }
+        }
+      }
+  
+      function animateParticles() {
+        drawParticles();
+        requestAnimationFrame(animateParticles);
+      }
+  
+      animateParticles();
+    }
+  </script>
+
+
 </body>
 <footer>
     <div>Christian D. Gantang</div>
