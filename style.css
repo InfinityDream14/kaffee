@@ -35,6 +35,18 @@ footer{
 .ff{
     font-size: 40px;
 }
+.redirect {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 .menu nav ul{
     
     padding: 0%;
@@ -256,7 +268,7 @@ footer{
     z-index: -1;
   }
 
-  button {
+  .resume {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
