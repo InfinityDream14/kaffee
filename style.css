@@ -35,18 +35,6 @@ footer{
 .ff{
     font-size: 40px;
 }
-.redirect {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: antiquewhite;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
 .menu nav ul{
     
     padding: 0%;
@@ -269,13 +257,15 @@ footer{
   }
 
   .resume {
-    padding: 10px 20px;
-    font-size: 16px;
+    position: absolute;
+    padding: 20px 40px;
+    font-size: 20px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #A0522D;
     color: #fff;
     border: none;
     border-radius: 5px;
+    left: 500px;
   }
 
   #pdf-embed {
